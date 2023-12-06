@@ -1,0 +1,26 @@
+/* Dashboard.css */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .course-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Additional styling can be added based on your design preferences */
+  

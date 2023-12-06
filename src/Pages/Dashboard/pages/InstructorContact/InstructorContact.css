@@ -1,0 +1,72 @@
+/* InstructorContact.css */
+.instructor-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .instructor-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .instructor-list li {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .selected-instructor {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .selected-instructor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 30px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+
+  }
+   dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

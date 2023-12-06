@@ -1,0 +1,51 @@
+
+.how-work-des{  
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+    font-size: 20px;
+    margin-bottom: 4rem;
+}
+.howWork-article-aira{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 30px;  
+    
+}
+.howWork-article-aira article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;    
+}
+.howWork-article-aira article span{
+    color: var(--color-primary);
+    font-size: 4rem;
+}
+.howWork-article-aira article{
+    margin: 0 !important;
+}
+
+
+/* ...........Media Screen (1024px)............ */
+@media (max-width:1024px) {
+    .how-work-des{     
+        
+        width: 100%;  
+    }
+    .howWork-article-aira{       
+        grid-template-columns: repeat(3, 1fr) ;
+        gap: 20px;     
+        
+    }
+}
+/* ...........Media Screen (600px)............ */
+@media (max-width:600px) {
+    .how-work-des{      
+        font-size: 18px;    
+    }
+    .howWork-article-aira{       
+        grid-template-columns: repeat(2, 1fr) ;      
+    }
+}
