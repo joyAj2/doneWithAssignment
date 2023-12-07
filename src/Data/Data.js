@@ -25,7 +25,7 @@ export const navLinks =[
 // startup data.......................
 
 // Startup data
-export const startupData = [
+export const startupdata = [
   {
     id: 1,
     title: 'Student Grade Reporting System',
@@ -44,7 +44,7 @@ export const startupData = [
 ];
 
 // HowWork data
-export const HowWorkData = [
+export const HowWorkdata = [
   {
     id: 1,
     title: 'Step 1: Login to the System',
