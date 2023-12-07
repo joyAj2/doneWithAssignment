@@ -1,5 +1,6 @@
 // Import Header.css......................
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 // Import Header.image......................
 import headerImage from '../../assets/header-imge.png'
@@ -14,11 +15,11 @@ export default function Header() {
            
             {/* ............Header Left.............*/}
             <div className="header-left">
-            <h1>This is header This is header text</h1>
+            <h1>UG, Missing Grade Reporting System</h1>
             <p >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, corrupti dolore. Dignissimos magnam et enim autem at neque, ad maxime excepturi dolor consequatur numquam! Non eaque sequi minima dicta ex?
+                We are excited to introduce the Missing Grade Reporting System, a cutting-edge solution designed to empower students in managing and monitoring their academic progress seamlessly.
             </p>
-            <a href='' className="btn btn-border">Start Project</a>
+            <Link to='/dashboard' className="btn btn-border">Start Project</Link>
         </div>
 
         {/* ............Header right.............*/}
