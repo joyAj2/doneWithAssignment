@@ -8,7 +8,7 @@ export default function CopyRight() {
   return (
     <div className='footer-copyright'>
         <div className="container copyright-container">
-            <p>© The Beg Joker. All rights reserved.</p>
+            <p>©️ 2023 Missing Grade Reporting System. All rights reserved.</p>
             <div className="footer-socials">
                 {
                     FootersLinksData.socials.map((item,index)=>{
