@@ -11,10 +11,6 @@ export const navLinks =[
         path:'/dashboard'
     },
     {
-        name:'page3',
-        path:'/page3'
-    },
-    {
         name:'Login',
         path:'/login'
     },
@@ -28,53 +24,49 @@ export const navLinks =[
 
 // startup data.......................
 
-export const startupdata =[
+// Startup data
+export const startupData = [
   {
-      id: 1,
-      title:'lorem ipsum',
-      des: 'nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!',
-      
+    id: 1,
+    title: 'Student Grade Reporting System',
+    des: 'Track and report missing grades with an interactive interface designed for students at the University of Ghana.',
   },
   {
-      id: 2,
-      title:'lorem ipsum',
-      des: 'nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!',
-    
+    id: 2,
+    title: 'University Portal Enhancement',
+    des: 'Improving the user experience of the University of Ghana portal to provide students with a seamless academic journey.',
   },
   {
-      id: 3,
-      title:'lorem ipsum',
-      des: 'nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!',
+    id: 3,
+    title: 'Digital Learning Initiative',
+    des: 'Introducing innovative digital learning solutions to enhance the educational experience for students at the University of Ghana.',
+  },
+];
+
+// HowWork data
+export const HowWorkData = [
+  {
+    id: 1,
+    title: 'Step 1: Login to the System',
+    des: 'Access the system by securely logging in with your student ID and PIN to ensure data privacy and security.',
+  },
+  {
+    id: 2,
+    title: 'Step 2: View Dashboard',
+    des: 'Explore your personalized dashboard, providing an overview of your current grades and any alerts for missing grades.',
+  },
+  {
+    id: 3,
+    title: 'Step 3: Report Missing Grade',
+    des: 'Effortlessly report missing grades by filling out the form, including details such as course name, instructor, and expected grade.',
+  },
+  {
+    id: 4,
+    title: 'Step 4: Connect with Instructors',
+    des: 'Contact your instructors through the system, making communication streamlined and efficient for both students and faculty.',
   },
 ];
 
-
-// HowWork data.......................
-
-export const HowWorkdata =[
-  {
-      id: 1,
-      title:'lorem ipsum',
-      des: 'nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!',
-      
-  },
-  {
-      id: 2,
-      title:'lorem ipsum',
-      des: 'nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!',
-    
-  },
-  {
-      id: 3,
-      title:'lorem ipsum',
-      des: 'nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!',
-  },
-  {
-      id: 4,
-      title:'lorem ipsum',
-      des: 'nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!',
-  },
-];
   
   
 
