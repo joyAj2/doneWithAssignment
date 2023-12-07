@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container footer-container">
          {/* ............About Params.......... */}
          <div>
-          <h4>lorem</h4>
+          <h4>About</h4>
           <ul className="about-params param-links">
             {
               FootersLinksData.Aboutus.map(({link, linkname}, index)=>{
@@ -29,7 +29,7 @@ export default function Footer() {
          </div>
          {/* ............Discover Params.......... */}
          <div>
-          <h4>lorem</h4>
+          <h4>Discover</h4>
           <ul className="discoveParams param-links">
             {
               FootersLinksData.Discover.map(({link, linkname}, index)=>{
@@ -42,7 +42,7 @@ export default function Footer() {
          </div>
          {/* ............My account Params.......... */}
          <div>
-          <h4>lorem</h4>
+          <h4>My account</h4>
           <ul className="myAccount-params param-links">
             {
               FootersLinksData.Myaccount.map(({link, linkname}, index)=>{
@@ -55,7 +55,7 @@ export default function Footer() {
          </div>
          {/* ............Helps Params.......... */}
          <div>
-          <h4>lorem</h4>
+          <h4>Help</h4>
           <ul className="Helps-params param-links">
             {
               FootersLinksData.Help.map(({link, linkname}, index)=>{
