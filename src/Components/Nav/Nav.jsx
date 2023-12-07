@@ -40,8 +40,8 @@ export default function Nav() {
             <a href='#' className='logo'>
                 <div
       style={{
-        width: '80px', // Adjust the width to make it smaller
-        height: '80px', // Set a fixed height for consistency
+        width: '70px', // Adjust the width to make it smaller
+        height: '70px', // Set a fixed height for consistency
         borderRadius: '50%',
         border: '2px solid #333',
         overflow: 'hidden', // Clip the circular border
