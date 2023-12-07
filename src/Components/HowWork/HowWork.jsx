@@ -9,8 +9,16 @@ export default function HowWork() {
     <section className='howWork'>
           <div className="container howWork-container">
             <div className="title-aria">
-            <TitileTypeOne TitleTop={'lorem ipsum'} Title={'How its all Work'} />
-            <p className='how-work-des'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eum aperiam aut, nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!</p>
+           <TitileTypeOne TitleTop={'Explore'} Title={'How it Works'} />
+<p className='how-work-des'>Discover the simplicity:
+
+1. Login: Securely access the system.
+2. Dashboard: View grades and alerts.
+3. Report Missing Grades: Simple form.
+4. Contact Instructors: Direct communication.
+
+Effortless. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eum aperiam aut, nobis nostrum quidem quas adipisci consequatur iusto perspiciatis nesciunt aliquam quod dolores laudantium dolorem expedita mollitia accusamus repudiandae!</p>
+
             </div>
 
             <div className="howWork-article-aira">
