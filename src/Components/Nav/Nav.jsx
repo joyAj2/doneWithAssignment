@@ -38,7 +38,22 @@ export default function Nav() {
         <div className="container nav-container">
             {/* .............Logo............ */}
             <a href='#' className='logo'>
-                <h3>Logo</h3>
+                <div
+      style={{
+        width: '80px', // Adjust the width to make it smaller
+        height: '80px', // Set a fixed height for consistency
+        borderRadius: '50%',
+        border: '2px solid #333',
+        overflow: 'hidden', // Clip the circular border
+        margin: 'auto', // Center the logo
+      }}
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b8/University_of_Ghana_%28UG%29_logo.jpg"
+        alt="UG Logo"
+        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+      />
+    </div>
             </a>
 
              {/* .............Nav-Links............ */}
